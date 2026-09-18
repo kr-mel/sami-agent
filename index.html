@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light" />
   <title>سامي · مساعد متجر الحلويات الذكي</title>
   <meta name="description" content="سامي — مساعد ذكاء اصطناعي لمتجر حلويات شامية. يردّ بالعربية والتركية والإنجليزية. مشروع عرض (Portfolio)." />
   <meta property="og:title" content="سامي · مساعد متجر الحلويات الذكي" />
@@ -21,18 +22,7 @@
       --chip-bg:#FFFFFF; --chip-text:#0F2519; --chip-border:#DCD3BE;
       --field-bg:#FFFFFF; --field-text:#1C1917;
       --shadow:0 24px 60px -24px rgba(15,37,25,.28);
-    }
-    @media (prefers-color-scheme:dark){
-      :root{
-        --bg1:#0a140d; --bg2:#0f1c14;
-        --card:#13241a; --surface:#182c20; --surface-2:#12211a;
-        --green:#efe9dc; --green2:#1c3527; --gold:#e6c463; --gold2:#f0d68a;
-        --text:#F1ECE1; --muted:#a7b0a6; --line:#294034;
-        --bot-bg:#1a2f23; --bot-text:#F1ECE1; --bot-border:#294034;
-        --chip-bg:#1a2f23; --chip-text:#F1ECE1; --chip-border:#33503f;
-        --field-bg:#12211a; --field-text:#F1ECE1;
-        --shadow:0 24px 60px -24px rgba(0,0,0,.6);
-      }
+      color-scheme:light; /* تثبيت المظهر الفاتح دائماً حتى لو النظام غامق */
     }
     *{box-sizing:border-box;margin:0;padding:0}
     html,body{height:100%}
